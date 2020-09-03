@@ -1,0 +1,61 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+
+public class abstract class
+{
+	public static void main(String[] args) {
+	    Scanner val=new Scanner (System .in);
+	 Employee e,
+	 e=new manager("Mr.S.mani",40,38th,75);
+	
+		System.out.println("1st manager detail :\n"+e);
+		e=?new manager("Mr.p.Ilango"45,35,359);
+		System .out.println ("\nclerk details :\n "+e);
+	}
+}
+abstract class Employee
+{
+    string name;
+    int age;
+    double hour Rate ,hours;
+    abstract .double CalcSalary (double hours);
+    Scanner val=new Scanner (System .in);
+    public StringtoString() 
+    
+    {
+        return "\nName:"+name+"\nAge+"\nHourrate:Rs."+hourrqte+"\n No of working hours:"+
+        "
+    }
+}
+class manager extends Employee
+{
+    manager(string n,int a,double h)
+    {
+        name=n;
+        area=a;
+        hours=h;
+        hourrate=175.8;
+    }
+    double CalcSalary (doublehours)
+    {
+        return hours*hourRate;
+    }
+}
+class clerk extends Empplyee
+{
+    name=n;
+    age=a;
+    hours=h;
+    hourRate=100.78;
+    
+}
+double CalcSalary(doublehours)
+{
+    return hours*hourRate;
+}
+
